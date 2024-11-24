@@ -7,6 +7,8 @@ import java.io.InputStreamReader;
 
 public class UserInputBR {
     public static void main(String[] args) throws IOException {
+        System.out.println("User Input with BufferedReader from java.io Package");
+
         System.out.println("Enter a Number");
 
         InputStream is = System.in;
