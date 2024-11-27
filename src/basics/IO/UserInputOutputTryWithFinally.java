@@ -1,10 +1,10 @@
-package basics;
+package basics.IO;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class UserInputTryWithFinally {
+public class UserInputOutputTryWithFinally {
     public static void main(String[] args) throws IOException {
         System.out.println("UserInput: Scanner with Try with Finally");
         BufferedReader br = null;

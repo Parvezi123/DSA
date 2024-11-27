@@ -1,10 +1,10 @@
-package basics;
+package basics.IO;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class UserInputTryWithResources {
+public class UserInputOutputTryWithResources {
     public static void main(String[] args) throws IOException {
         System.out.println("UserInput: BufferedReader Try with Resources");
         int num = 0;
