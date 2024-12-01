@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class IfElse {
     public static void main(String[] args) {
-        byte value1 = 0;
-        byte value2 = 0;
-        byte value3 = 0;
+        byte value1;
+        byte value2;
+        byte value3;
 
         try(Scanner in = new Scanner(System.in)) {
             System.out.println("Enter value 1: ");
