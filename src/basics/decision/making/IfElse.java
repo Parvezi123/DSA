@@ -8,6 +8,7 @@ public class IfElse {
         byte value2;
         byte value3;
 
+        System.out.println("Largest of 3 Values : Range from -128 to 127");
         try(Scanner in = new Scanner(System.in)) {
             System.out.println("Enter value 1: ");
             value1 =  Byte.parseByte(in.next());
@@ -30,7 +31,7 @@ public class IfElse {
         }
 
         catch (NumberFormatException e) {
-            System.out.println(e.getMessage());
+            System.out.println("Value out of range for the Provided Input");
         }
 
     }
